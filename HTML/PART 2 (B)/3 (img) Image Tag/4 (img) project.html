@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- 
+    PROJECT: Celebrities Gallery - Advanced Images Practice
+    LEARNING OBJECTIVES:
+    1. Absolute URLs use karna
+    2. Semantic HTML (figure, figcaption)
+    3. Links aur images combine karna
+    4. Ordered lists structure
+    5. Alt text importance
+    6. Target attributes (_blank)
+    
+    CONCEPTS COVERED:
+    - Images absolute paths se (external URLs)
+    - Anchor tags images ke saath
+    - Figure/figcaption semantic elements
+    - Ordered lists (numbered)
+    - Accessibility (alt text)
+    
+    BEST PRACTICES USED:
+    - Descriptive alt text for images
+    - Semantic HTML structure (figure tag)
+    - External links open in new tab (target="_blank")
+    - Hover titles for better UX
+    - Proper image dimensions
+-->
+
+<html lang="en">
+<head>
+    <!-- Character encoding UTF-8 takey ho sab international characters support hon -->
+    <meta charset="UTF-8">
+    
+    <!-- Responsive design - mobile phones par sahi display hony ke liye -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title - browser tab mein dikhta hai -->
+    <title>4 major practice for img tag</title>
+    
+    <!-- CSS Styling - List items aur heading ko center aur black color -->
+    <style>
+        li, h1 { 
+            text-align: center;  /* Center alignment */
+            color: black;        /* Black color */
+        }
+    </style>
+</head>
+
+<!-- Body - Main content area -->
+<body>
+    <!-- Main Heading - Page ka title -->
+    <h1>My Favourite Celebrities</h1>
+    <!-- Ordered List (numbered) - Celebrities ka list -->
+    <ol>
+        
+        <!-- List Item 1: Babar Azam (Pakistani Cricketer) -->
+        <li>
+            <!-- Figure - Semantic tag image ke saath caption ke liye -->
+            <figure>
+                <!-- Bold text formatting -->
+                <b>
+                    <!-- Anchor tag - Wikipedia link open karta hai new tab mein -->
+                    <!-- target="_blank" = naya tab khol day -->
+                    <!-- title attribute hover par text dikhata hai -->
+                    <a href="https://en.wikipedia.org/wiki/Babar_Azam" target="_blank" title="Click & Open image in New Tab">
+                        <!-- 
+                            Image tag - Absolute URL use kar raha hai (internet se image)
+                            src = image ka complete web address
+                            alt = screen readers ke liye descriptive text
+                            width = image ki width 200px set
+                        -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJoi5U6KEVwnbBMWai0SGSwtuMYgjbAY7kVy6TfhcWiWYtp9-xaCQWVBI&s=10" alt="Babar Azam" width="200">
+                    </a>
+                    <!-- Figure caption - Image ke neeche label/description -->
+                    <figcaption><strong>Babar Azam</strong></figcaption>
+                </b>
+            </figure>
+        </li>
+        
+        
+        <!-- List Item 2: Virat Kohli (Indian Cricketer) -->
+        <li>
+            <!-- Figure - Semantic element for image + caption -->
+            <figure>
+                <b>
+                    <!-- Link to Wikipedia - Different celebrity ka page -->
+                    <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank" title="Click & Open image in New Tab">
+                        <!-- Image - Different URL, but same structure -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/250px-Virat_Kohli_in_PMO_New_Delhi.jpg" alt="virat kholi" width="200">
+                    </a>
+                    <!-- Caption -->
+                    <figcaption><strong>Virat Kholi</strong></figcaption>
+                </b>
+            </figure>
+        </li>
+        
+        <!-- List Item 3: Babar Azam (Repeat) -->
+        <li>
+            <!-- Same structure - Figure with link and image -->
+            <figure>
+                <b>
+                    <a href="https://en.wikipedia.org/wiki/Babar_Azam" target="_blank" title="Click & Open image in New Tab">
+                        <!-- Same celebrity image repeated -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJoi5U6KEVwnbBMWai0SGSwtuMYgjbAY7kVy6TfhcWiWYtp9-xaCQWVBI&s=10" alt="Babar Azam" width="200">
+                    </a>
+                    <figcaption><strong>Babar Azam</strong></figcaption>
+                </b>
+            </figure>
+        </li>
+
+        <!-- List Item 4: Virat Kohli (Repeat) -->
+        <li>
+            <!-- Semantic figure structure -->
+            <figure>
+                <b>
+                    <!-- Wikipedia link open in new tab -->
+                    <a href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank" title="Click & Open image in New Tab">
+                        <!-- Absolute URL image -->
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/250px-Virat_Kohli_in_PMO_New_Delhi.jpg" alt="virat kholi" width="200">
+                    </a>
+                    <figcaption><strong>Virat Kholi</strong></figcaption>
+                </b>
+            </figure>
+        </li>
+
+        <!-- List Item 5: Babar Azam (Repeat) -->
+        <li>
+            <!-- Figure semantic element -->
+            <figure>
+                <b>
+                    <!-- External link - always opens in new tab for better UX -->
+                    <a href="https://en.wikipedia.org/wiki/Babar_Azam" target="_blank" title="Click & Open image in New Tab">
+                        <!-- Image with alt text for accessibility -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJoi5U6KEVwnbBMWai0SGSwtuMYgjbAY7kVy6TfhcWiWYtp9-xaCQWVBI&s=10" alt="Babar Azam" width="200">
+                    </a>
+                    <!-- Label under image -->
+                    <figcaption><strong>Babar Azam</strong></figcaption>
+                </b>
+            </figure>
+        </li>
+    </ol>
+    
+    <!-- Closing body tag -->
+</body>
+<!-- Closing html tag -->
+</html>
