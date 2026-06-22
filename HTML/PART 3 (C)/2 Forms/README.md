@@ -13,7 +13,8 @@
 
 ```
 2 Forms/
-└── 1 forms.html    (Form practice)
+├── 0 form basic.html    (Basic form inputs - text, password, number, date, time, color, checkbox, radio)
+└── 1 forms.html         (Form practice)
 ```
 
 ---
