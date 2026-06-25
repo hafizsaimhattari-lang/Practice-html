@@ -150,6 +150,48 @@
 
 ---
 
+## 🤔 Rowgroup Kya Hota Hai? (Alternatives to Rowgroup)
+
+HTML mein `<colgroup>` ke jaisa koi direct `<rowgroup>` element **nahi** hota. 
+Lekin agar aap rows ko group karna chahte hain, toh iske liye HTML mein 3 special elements mojood hain jo row grouping ka kaam karte hain:
+
+1. **`<thead>`** - Table ka header row group (Title waghera ke liye)
+2. **`<tbody>`** - Table ka main data / body row group (Actual data ke liye)
+3. **`<tfoot>`** - Table ka footer row group (Totals, summaries ke liye)
+
+### Syntax (Row Grouping)
+```html
+<table>
+  <!-- Header Group -->
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  
+  <!-- Body Group -->
+  <tbody>
+    <tr>
+      <td>Item 1</td>
+      <td>$10</td>
+    </tr>
+  </tbody>
+  
+  <!-- Footer Group -->
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>$10</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+> **Note:** Aap CSS ki madad se `<thead>`, `<tbody>`, ya `<tfoot>` ko target kar ke poori rows ke group ko ek saath style de sakte hain.
+
+---
+
 ## 📚 Colgroup Examples Banane Wale Hain
 
 - [ ] Simple colgroup with colors

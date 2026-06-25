@@ -1,3 +1,24 @@
+# 📁 PART 2 (B)
+
+## 📚 Is Folder Ka Maqsad
+Yeh folder **PART 2 (B)** ke baare mein hai. Isme HTML ke related tags aur practice examples hain.
+
+---
+
+## 🎯 Key Concepts Covered
+- HTML syntax for this topic
+- Best practices aur standard guidelines
+- Practical examples
+
+---
+
+## 📝 Notes
+Har HTML file mein comments diye gaye hain taake code ka maqsad clear ho. 
+Agar aapko practice karni hai to in files ko open karein aur code ko change kar ke run karein.
+
+---
+
+### 🗃️ Original Content:
 # 📚 PART 2 (B) - Lists, Links, Images aur Advanced Concepts
 ## Complete Guide to HTML Content Elements
 
