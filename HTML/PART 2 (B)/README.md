@@ -52,6 +52,7 @@ PART 2 (B)/
 │   └── 2 Portfolio page Project Using Html/
 ├── 5 Html Entities/
 ├── 6 Comments in Html/
+├── 6 basic-meta-tags/
 └── 7 All Formating tags/
 ```
 
@@ -143,6 +144,19 @@ PART 2 (B)/
 - Multi-line comments
 - Best practices
 - Documentation
+
+**Files:** 1 practice file
+
+---
+
+### 📁 6 (b). Basic Meta Tags
+**Kya Seekha:** HTML document metadata add karna
+
+**Topics:**
+- Meta description
+- Meta keywords
+- Viewport settings
+- Character set
 
 **Files:** 1 practice file
 

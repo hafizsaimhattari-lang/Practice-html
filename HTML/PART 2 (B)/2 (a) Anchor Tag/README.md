@@ -21,7 +21,10 @@ Yeh folder mein **links** ka har tarika seekha: absolute URLs, relative URLs, sp
 ├── 5 (a) Relative Links Practice.html       (Internal links)
 ├── 6 Download Attribute us in (a) Tag.html  (File downloads)
 ├── 7 (tel) Attribute use for Number&Whatsapp.html (Phone links)
-└── 8 Email Call Trough (a) tag.html         (Email links)
+├── 8 Email Call Trough (a) tag.html         (Email links)
+├── 8-Email-Call-Trough-(a)-tag.html         (Email links variation)
+├── 9 (A) Bookmark Create Using (a) Tag.html (Bookmarks in same page)
+└── 9 (B) Bookmark (2) using (a) tag.html    (Blog with bookmarks practice)
 ```
 
 ---
@@ -264,6 +267,26 @@ Files download karne ke liye:
 
 ---
 
+### 9. **Bookmarks** - Internal Page Links
+
+Ek hi page ke andar different sections par navigate karne ke liye `id` attribute ka use.
+
+**Syntax:**
+```html
+<!-- Link banana -->
+<a href="#section-id">Go to Section</a>
+
+<!-- Target section -->
+<h2 id="section-id">Section Heading</h2>
+```
+
+**Use Cases:**
+- Table of contents
+- Back to top button
+- Long articles or blogs
+
+---
+
 ## ✅ Concepts Covered
 
 ### Links Types:
@@ -274,6 +297,7 @@ Files download karne ke liye:
 - [ ] Phone links
 - [ ] WhatsApp links
 - [ ] Download links
+- [ ] Bookmarks (internal page links)
 - [ ] Anchor with target attributes
 
 ### Attributes:
@@ -302,6 +326,7 @@ Files download karne ke liye:
 | Phone | `tel:` | Call buttons |  |
 | WhatsApp | `https://wa.me/` | Chat | Messaging |
 | Download | `download` | PDF, ZIP | File download |
+| Bookmark | `#id` | `#section` | Same page link |
 
 ---
 
