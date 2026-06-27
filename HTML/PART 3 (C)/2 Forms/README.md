@@ -13,8 +13,10 @@
 
 ```
 2 Forms/
-├── 0 form basic.html    (Basic form inputs - text, password, number, date, time, color, checkbox, radio)
-└── 1 forms.html         (Form practice)
+├── 0 form basic.html                (Basic HTML form layout)
+├── 1 forms.html                     (Detailed form elements)
+├── 1 form tags & attributes/        (Advanced tags and attributes)
+└── README.md                        (This file)
 ```
 
 ---

@@ -42,6 +42,7 @@
 1 Tabbles/
 ├── 1 Tables or colspan rowspan/     (Basic tables + colspan/rowspan merging)
 ├── 2 Colgroup/                      (Column styling with colgroup element)
+├── 3 Projects for Tables/           (Practical projects using tables)
 └── README.md                        (This file)
 ```
 
@@ -152,16 +153,20 @@ Basic table structures اور colspan/rowspan examples
 -->
 
 ### 🎨 2 Colgroup
-Column styling اور colgroup element کے ساتھ
+Column styling aur colgroup element ke sath
 - Colgroup basic concepts
 - Multiple column styling
-- Real-world examples (آنے والے)
+- Real-world examples
+
+### 🏗️ 3 Projects for Tables
+Tables par mabni mukammal projects aur assignments
 
 <!-- 
     YE FOLDER MEIN:
     🔜 Coming: Colgroup examples
     🔜 CSS styling techniques
     🔜 Professional table designs
+    🔜 Projects aur assignments
 -->
 
 ---

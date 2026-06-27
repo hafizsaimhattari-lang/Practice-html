@@ -37,7 +37,12 @@ PART 3 mein **advanced HTML elements** seekhe jo data organize aur user input le
 ```
 PART 3 (C)/
 ├── 1 Tabbles/           (Data tables)
-└── 2 Forms/             (User input forms)
+├── 2 Forms/             (User input forms)
+├── 3 div & Span/        (Block vs Inline elements)
+├── 4 Blockquote html/   (Quotation tags)
+├── 5 Video/             (Embedding videos)
+├── 6 Audio/             (Embedding audio)
+└── 7 Sementic Tags/     (HTML5 structure tags)
 ```
 
 ---
@@ -49,6 +54,21 @@ Structured data ko rows aur columns mein display karna
 
 ### 📁 2. Forms
 Users se input lena aur process karna
+
+### 📁 3. div & Span
+Block-level aur Inline-level elements (div aur span) ka use aur unka difference samajhna
+
+### 📁 4. Blockquote html
+Long quotations ke liye `<blockquote>` aur short quotes ke liye `<q>` tags ka istemal
+
+### 📁 5. Video
+Webpage mein video files embed karna `<video>` tag ke zariye
+
+### 📁 6. Audio
+Webpage mein sound/audio files embed karna `<audio>` tag ke zariye
+
+### 📁 7. Semantic Tags
+HTML5 ke meaning-full tags (`<header>`, `<footer>`, `<article>`, `<nav>`, `<aside>`, `<figure>`) ka use karna SEO aur accessibility ke liye
 
 ---
 

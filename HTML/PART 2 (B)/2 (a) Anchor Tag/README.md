@@ -24,7 +24,9 @@ Yeh folder mein **links** ka har tarika seekha: absolute URLs, relative URLs, sp
 ├── 8 Email Call Trough (a) tag.html         (Email links)
 ├── 8-Email-Call-Trough-(a)-tag.html         (Email links variation)
 ├── 9 (A) Bookmark Create Using (a) Tag.html (Bookmarks in same page)
-└── 9 (B) Bookmark (2) using (a) tag.html    (Blog with bookmarks practice)
+├── 9 (B) Bookmark (2) using (a) tag.html    (Blog with bookmarks practice)
+├── 10 Another html page using (a) tag.html  (Extra anchor tag practice)
+└── 11 Projects/                             (Projects using anchor tags)
 ```
 
 ---
