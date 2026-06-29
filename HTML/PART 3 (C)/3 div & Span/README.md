@@ -9,9 +9,9 @@ Yeh folder **`<div>` aur `<span>`** tags ke darmiyan farq aur unke use cases ko 
 
 ```
 3 div & Span/
+├── 1 div & span.html   (Practice file showing div vs span)
 └── README.md           (This file)
 ```
-*(Currently this folder is reserved for future practice files)*
 
 ---
 

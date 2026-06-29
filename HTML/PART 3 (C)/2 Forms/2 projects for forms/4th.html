@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4th Form in html</title>
+</head>
+<body>
+    <form action="#">
+    <fieldset>
+        <legend>User Info</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="Full-Name">Enter Full Name : </label>
+                </td>
+                <td>
+                    <input type="text" id="Full-Name" name="fname" placeholder="Enter Your Name" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Enter Your Email : </label>
+                </td>
+                <td>
+                     <input type="email" id="Email" name="Email" placeholder="Enter Your Email" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Phone">Phone Number : </label>
+                </td>
+                <td>
+                    <input type="text" id="Phone" name="PNumber" placeholder="Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Your Password : </label>
+                </td>
+                <td>
+                    <input type="password" id="Password" name="Password" placeholder="Enter Password">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>User Other Info</legend>
+        <table>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" id="radio1" name="Gender" value="Male">
+                        <label for="radio1">Male </label>
+
+                    </td>
+                    <td>
+                        <input type="radio" id="radio2" name="Gender" value="Female">
+                        
+                     <label for="radio2">Female </label>
+                    </td>
+                    <td>
+                        <input type="radio" id="radio3" name="Gender" value="Others">
+                        <label for="radio3">Others </label>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="DOB">Date of Birth : </label>
+                        
+                    </td>
+                    <td>
+                        <input type="date" id="DOB" name="Date-Birth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="School-Name">School Name : </label>
+                    </td>
+                    <td>
+                        <input type="text" id="School-Name" name="Sname" placeholder="School Name" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Board">Select Board : </label>
+                    </td>
+                    <td>
+                        <select id="Board" name="Board">
+                            <option value="Auto-Selected" selected disabled>Select Your Board</option>
+                            <option value="CBSE">CBSE</option>
+                            <option value="ICSE">ICSE</option>
+                            <option value="UPBOARD">UPBOARD</option>
+                            <option value="UKB">UKB</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Passing-Year"> Year of Passing : </label>
+                    </td> 
+                    <td>
+                        <input type="Number" id="Passing-Year" name="Pyear" min="2015"  max="2026">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Center">Exam Center : </label>
+                    </td>
+                    <td>
+                        <select id="Center" name="Center">
+                            <option value="Auto-Selected" selected disabled>Select Exam Center</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Dehradun">Dehradun</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Mumbai">Mumbai</option>
+
+                        </select>
+                    </td>
+                </tr>
+            </table>
+    </fieldset>
+    <br>
+    <div style="text-align:center;">
+        <button type="Submit" >Submit</button>
+        <button type="Reset">Reset</button>
+    </div>
+    </form>
+</body>
+</html>

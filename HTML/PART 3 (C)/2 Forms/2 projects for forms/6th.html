@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6th html Form</title>
+    <style>
+        h1{
+            color:darkred;
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align:center;">
+        <h1>Elite Developer Registration</h1>
+        <p>&#9888;<strong>Warning:</strong> Fill all required details perfectly!</p>
+        <hr><br>
+    </header>
+    <main>
+        <form>
+         <section>
+            <fieldset>
+                
+                <legend>1. Personal Identity</legend>
+                
+                
+                <label for="Full-Name"><strong>Full Name : </strong></label><br>
+                <input type="text" id="Full-Name" name="UserName" placeholder="e.g. Abdul Talha"><br><br>
+
+
+                <label for="Email"><strong>Professional Email : </strong></label><br>
+                <input type="text" id="Email" name="UserEmail" placeholder="Atdeveloper@gmail.com"><br><br>
+
+
+                <label for="Password"><strong>Create Secure Password : </strong></label><br>
+                <input type="text" id="Password" name="UserPass" placeholder="minimum 8 caracters"><br><br>
+
+                
+                <label for="Phone-Number"><strong>Active Phone Number : </strong></label><br>
+                <input type="text" id="Phone-Number" name="UserPhoneNumber" placeholder="+92-300-0000000"><br><br>
+              
+                
+                
+                <label for="Date-of-Birth"><strong>Date of Birth : </strong></label><br>
+                <input type="date" id="Date-of-Birth" name="User-Date-of-Birth"><br><br>
+            
+            </fieldset><br>
+            
+            </section>
+
+            <section>
+
+                <fieldset>
+
+                    <legend>2. Professional Details</legend>
+
+
+                    <label for="Coding-Experience-Dropdown"><strong>Coding Experience : </strong></label><br>
+                    
+                    <select id="Coding-Experience-Dropdown" name="Coding-Experience-Dropdown">
+                        
+                        <option value="Select-Level" selected disabled>Select Your Level</option>
+                        <option value="Beginner-(htmlonly)">Beginner (HTML Only)</option>
+                        <option value="Intermediate-(HTML+CSS)">Intermediate (HTML + CSS)</option>
+                        <option value="Advanced-(JavaScript&Backend)">Advanced (JavaScript & Backend)</option>
+                    
+                    </select>
+                    
+                    <br><br>
+
+                    <!-- Radio -->
+
+
+                    <p><strong>1. Current Setup (Laptop/PC):</strong></p>
+                    
+                    <input type="radio" id="Desktop-PC-Radio" name="Current-Setup-Radio" value="Desktop(PC)">
+                    <label for="Desktop-PC-Radio"><b>Desktop PC </b></label>
+                    
+                    <input type="radio" id="Laptop-Radio" name="Current-Setup-Radio" value="Laptop" >
+                    <label for="Laptop-Radio"><b>Laptop</b></label>
+
+                    <br><br>
+
+
+                    <!-- checkbox -->
+
+                    <p><strong>2. Skills You Want to Master:</strong></p>
+                    
+                    <input type="checkbox" id="Frontend-Design-Checkbox" name="Skills-You- Want-to-Master-Checkboxs" value="Frontend-Design">
+                    <label for="Frontend-Design-Checkbox"><b>Frontend Design</b></label>
+                    
+                    <input type="checkbox" id="Backend-Logic-Checkbox" name="Skills-You- Want-to-Master-Checkboxs" value="Backend-Logic">
+                    <label for="Backend-Logic-Checkbox"><b>Backend Logic</b></label>
+
+                    <input type="checkbox" id="Database-Management-Checkbox" name="Skills-You- Want-to-Master-Checkboxs" value="Database-Management">
+                    <label for="Database-Management-Checkbox"><b>Database Management</b></label>
+
+                    <br><br>
+                    
+                    <!-- textArea -->
+                     <label for="writing-goals-textarea"><strong>3. Why do you want to join this Elite Bootcamp?</strong></label><br><br>
+                     <textarea name="writing-goals-textarea" id="writing-goals-textarea" placeholder=" Write your goals here..." cols="50" rows="5"></textarea>
+                    
+                    
+                    </fieldset><br>
+
+                </section>
+
+                <section>
+
+                    <fieldset>
+
+                        <legend>3. Advanced Developer Stats</legend>
+
+                        
+                        <label for="uploadfileoption"><b>Upload Your CV & Photos </b></label>
+                        <input type="file" id="uploadChooseoption" name="filesuploads">
+
+                        <br><br>
+
+
+                        <label for="Study-Hours"><b>Hours you can study per day : </b></label>
+                        <input type="number" id="Study-Hours" name="type-Study-Hours">
+                        
+                        <br><br>
+
+                        <label for="Current-Motivation-Level"><b>Current Motivation Level : </b></label>
+                        <input type="range" id="Current-Motivation-Level" name="slider-Current-Motivation-Level" min="1" max="100" step="5">
+
+                        <br><br>
+
+                        
+                        <label for="Favorite-Theme-Color"><b>Pick Your Favorite Theme Color :  </b></label>
+                        <input type="color" id="Favorite-Theme-Color" name="selected-Favorite-Theme-Color">
+                        
+                    </fieldset>
+                    <br>
+                </section>
+                <section>
+                    <div style="text-align:center;">
+                    
+                        <input type="checkbox" id="Agreement" name="last-agreement" value="picked-agreement">
+                            
+                        <label for="Agreement">I swear to write clean and elite code everyday.</label>
+                    
+                    </div><br>
+
+                    <div style="text-align:center;">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                    
+                </section>
+        </form>
+    </main>
+</body>
+</html>

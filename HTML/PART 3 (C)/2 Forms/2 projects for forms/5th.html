@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>5th Form in HTML</title>
+        <style>
+            #Health-Details {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <h1 id="Health-Details">Health Details Form</h1>
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fullName">Your Full Name : </label>
+                        </td>
+                        <td>
+                            <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">Date of Birth : </label>
+                        </td>
+                        <td>
+                            <input type="date" id="dob" name="dob">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender : </label>
+                        </td>
+                        <td>
+                            <select id="gender" name="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pNumber">Phone Number : </label>
+                        </td>
+                        <td>
+                             <select id="countryCode" name="countryCode">
+                                <option value="default" selected disabled>Select Your Country</option>
+                                <option value="United States">United States</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="India">India</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Turkey">Turkey</option>
+                             </select>
+                        </td>
+                        <td>
+                            <input type="tel" id="pNumber" name="phoneNumber" placeholder="Phone Number">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend>Medical History</legend>
+                
+                <label for="bg">Blood Group : </label>
+                <select id="bg" name="bloodGroup">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select><br><br>
+
+                <p style="margin-bottom: 5px; font-weight: bold;">Do you wear glasses or contact lenses?</p>
+                <input type="radio" id="eyewearYes" name="eyewear" value="Yes" checked>
+                <label for="eyewearYes">Yes</label>
+                <input type="radio" id="eyewearNo" name="eyewear" value="No">
+                <label for="eyewearNo">No</label><br><br>
+
+                <label for="existingConditions">Pre-existing Conditions : </label><br>
+                <textarea id="existingConditions" name="existingConditions" placeholder="List any pre-existing medical conditions" cols="50" rows="8"></textarea><br><br>
+
+                <p style="margin-bottom: 5px; font-weight: bold;">Allergies : </p>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="pollen" name="allergies" value="Pollen">
+                        </td>
+                        <td>
+                            <label for="pollen">Pollen</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="peanuts" name="allergies" value="Peanuts">
+                        </td>
+                        <td>
+                            <label for="peanuts">Peanuts</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="latex" name="allergies" value="Latex">
+                        </td>
+                        <td>
+                            <label for="latex">Latex</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="none" name="allergies" value="None">
+                        </td>
+                        <td>
+                            <label for="none">None</label>
+                        </td>
+                    </tr>
+                </table><br>
+                
+                <label for="currentMedications">Current Medications : </label><br>
+                <textarea id="currentMedications" name="currentMedications" placeholder="List any current medications" cols="50" rows="8"></textarea>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend>Emergency Contact</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="contactName">Emergency Contact Name : </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Type Here" id="contactName" name="emergencyContactName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="contactPhone">Emergency Contact Phone : </label>
+                        </td>
+                        <td>
+                            <input type="tel" placeholder="Type Here" id="contactPhone" name="emergencyContactPhone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cnic">CNIC CARD NUMBER : </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Type Here" id="cnic" name="emergencyCnic">
+                        </td>
+                    </tr>
+                </table><br>
+                <div style="text-align:center;">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
